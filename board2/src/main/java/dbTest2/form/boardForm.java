@@ -16,7 +16,7 @@ public class boardForm {
 	public String content;
 
 	@Required(msg = @Msg(key="작성자를 입력해주십시오.", resource = false))
-	@Maxlength(maxlength = 10, msg = @Msg(key="작성자는 최대 10자까지입니다.", resource = false))
+	@Maxlength(maxlength = 10, msg = @Msg(key="작성자는 최대 10자까지입니다..", resource = false))
 	public String writer;
 
 	public String regdate;

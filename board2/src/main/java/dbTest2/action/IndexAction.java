@@ -56,7 +56,7 @@ public class IndexAction {
 	}
 
 	//20181019_19:10追加
-//	@Execute(validate = "validate", input = "write.jsp")
+//	@Execute(validate = "validate", input = "write.jsp")aaaa
 //	public String insert() throws Exception{
 //		boardService.boardListInsert(boardform);
 //		return "index";
